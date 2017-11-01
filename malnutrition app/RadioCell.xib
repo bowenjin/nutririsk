@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="B2a-43-qAD" customClass="RadioCell" customModule="malnutrition_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="B2a-43-qAD" id="XiP-RN-7CE">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kn5-O5-dhX">
+                        <rect key="frame" x="8" y="8" width="359" height="27.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Kn5-O5-dhX" firstAttribute="top" secondItem="XiP-RN-7CE" secondAttribute="topMargin" id="FbK-xS-LYg"/>
+                    <constraint firstItem="Kn5-O5-dhX" firstAttribute="leading" secondItem="XiP-RN-7CE" secondAttribute="leadingMargin" id="KEf-Ab-4se"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Kn5-O5-dhX" secondAttribute="bottom" id="KR1-CX-TUx"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Kn5-O5-dhX" secondAttribute="trailing" id="QSX-bC-Vs8"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="label" destination="Kn5-O5-dhX" id="LDH-Vl-JHh"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="38"/>
+        </tableViewCell>
+    </objects>
+</document>

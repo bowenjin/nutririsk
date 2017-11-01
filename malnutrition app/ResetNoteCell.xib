@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="Cgc-Cq-tef" customClass="ResetNoteCell" customModule="malnutrition_app" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="Cgc-Cq-tef" id="pbj-F9-vRq">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="80z-9n-pYK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                        <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <state key="normal" title="Clear All Fields"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="80z-9n-pYK" secondAttribute="trailing" id="6hT-h6-Ypq"/>
+                    <constraint firstItem="80z-9n-pYK" firstAttribute="leading" secondItem="pbj-F9-vRq" secondAttribute="leading" id="kou-YK-lDV"/>
+                    <constraint firstAttribute="bottom" secondItem="80z-9n-pYK" secondAttribute="bottom" id="ok9-H1-Oxz"/>
+                    <constraint firstItem="80z-9n-pYK" firstAttribute="top" secondItem="pbj-F9-vRq" secondAttribute="top" id="pbp-iI-OBq"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="clearNoteButton" destination="80z-9n-pYK" id="3y4-GF-mht"/>
+            </connections>
+            <point key="canvasLocation" x="9" y="2"/>
+        </tableViewCell>
+    </objects>
+</document>

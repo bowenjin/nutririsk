@@ -1,0 +1,119 @@
+ [
+  { "id": "screen0", "class": "main-screen", "title": "Main Screen", "content":
+  [
+   { "class":"label", "text": "Review of Symptoms"},
+   { "class":"button", "text":"HEENT", "click":"screenHEENT"},
+   { "class":"button", "text":"Neck/Shoulders/Ribs/Hips", "click":"screenNSRH"},
+   { "class":"button", "text":"Respiratory", "click":"screenRES"},
+   { "class":"button", "text":"Upper Extremities", "click":"screenUE"},
+   { "class":"button", "text":"Gastrointestinal", "click":"screenGI"},
+   { "class":"button", "text":"Musculoskeletal", "click":"screenMS"},
+   { "class":"button", "text":"Integumentary", "click":"screenI"},
+   { "class":"button", "text":"Lower Extremities", "click":"screenLE"},
+   { "class":"button", "text":"Endocrine", "click":"screenE"},
+   { "class":"label", "text": "Risk Factors"},
+   { "class":"button", "text":"Assessment Quiz", "click":"screenAQ"},
+   { "class":"make-note-button"},
+   { "class":"reset-note-button"}
+   ]
+  },
+  { "id": "screenHEENT", "class": "screen", "title": "HEENT", "content":
+  [
+   { "class":"label", "text": "HEENT"},
+   { "class":"multiple-choice", "text": "Hair brittleness", "options":["No", "Mild-Moderate Loss", "Severe Loss"]},
+   { "class":"multiple-choice", "text": "Hair pluckability", "options":["No", "Mild-Moderate Loss", "Severe Loss"]},
+   { "class":"multiple-choice", "text": "Temporalis muscle wasting", "options":["No", "Mild-Moderate Loss", "Severe Loss"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/GFQjQTp.png"]},
+   { "class":"multiple-choice", "text": "Orbital sockets", "options":["Fat pad bulging", "Slightly hollow above cheekbones and some darkening", "Severely hollow and depressed, loose skin, dark circles"]},
+   { "class":"multiple-choice", "text": "Tongue bright red color", "options":["Yes", "No"]},
+   { "class":"multiple-choice", "text": "Tongue smooth texture", "options":["Yes", "No"]},
+   { "class":"multiple-choice", "text": "Teeth", "options":["Normal", "Mild-Moderate chewing impairement", "Unable to chew"]},
+   { "class":"multiple-choice", "text": "Throat", "options":["Normal", "Mild-Moderate dysphagia", "Unable to swallow"]}
+   ]
+  },
+  { "id": "screenNSRH", "class": "screen", "title": "NSRH", "content":
+  [
+   { "class":"label", "text": "Neck/Shoulders/Ribs/Hips"},
+   { "class":"multiple-choice", "text": "Clavicle", "options":["Clavicle not prominent , rounded shoulders", "Visible or protruding clavicle", "Clavicle and acromion process visible or protruding, concave depression"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/ccHFHjs.png", "http://i.imgur.com/N0ubO1Z.png"]},
+   { "class":"multiple-choice", "text": "Scapular to hip", "options":["Normal", "Mild depression above and below scapula and iliac crest", "Prominent depression scapular, between ribs, and iliac region"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/uneheNw.png"]}
+   ]
+  },
+  { "id": "screenRES", "class": "screen", "title": "RES", "content":
+  [
+   { "class":"label", "text": "Respiratory"},
+   { "class":"multiple-choice", "text": "Decreased exercise tolerance", "options":["Normal", "Moderate fatigue", "Severe fatigue"]},
+   { "class":"multiple-choice", "text": "Difficulty breathing", "options":["No shortness of breath with activity", "Moderate shortness of breath or difficulty breathing", "Heavy Labored"]}
+   ]
+  },
+  { "id": "screenUE", "class": "screen", "title": "UE", "content":
+  [
+   { "class":"label", "text": "Upper Extremities"},
+   { "class":"multiple-choice", "text": "Triceps", "options":["Normal rolling of fat when pinched", "Some loose skin", "Thumb and finger easily touch together while pinching"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/HYuXEMn.png"]},
+   { "class":"multiple-choice", "text": "Hand", "options":["Normal dorsal muscle", "Slightly depressed cavity", "Severely depressed cavity"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/ZKNJfca.png"]},
+   { "class":"multiple-choice", "text": "Hand grip strength", "options":["Undefined currently"]}
+   ]
+  },
+  { "id": "screenGI", "class": "screen", "title": "GI", "content":
+  [
+   { "class":"label", "text": "Gastrointestinal"},
+   { "class":"multiple-choice", "text": "Abdominal pain", "options":["No", "< 5 days", "> 5 days"]},
+   { "class":"multiple-choice", "text": "Nausea", "options":["No", "< 5 days", "> 5 days"]},
+   { "class":"multiple-choice", "text": "Vomitting", "options":["No", "< 5 days", "> 5 days"]},
+   { "class":"multiple-choice", "text": "Constipation", "options":["No", "< 5 days", "> 5 days"]},
+   { "class":"multiple-choice", "text": "Diarrhea", "options":["No", "< 5 days", "> 5 days"]}
+   ]
+  },
+  { "id": "screenMS", "class": "screen", "title": "MS", "content":
+  [
+   { "class":"label", "text": "Musculoskeletal"},
+   { "class":"multiple-choice", "text": "Nails", "options":["Normal", "Moderate changes: half white/brown, brittle, concave spoon shape, or ridges", "Severely brittle, concave spoon shape, or ridges"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/ysuU7WD.png"]}
+   ]
+  },
+  { "id": "screenI", "class": "screen", "title": "I", "content":
+  [
+   { "class":"label", "text": "Integumentary"},
+   { "class":"multiple-choice", "text": "Skin turgor - pinch test (recoil observation)", "options":["Immediately", "< 2 seconds", "> 2 seconds"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/92tfwwU.png"]},
+   { "class":"multiple-choice", "text": "Skin coloration", "options":["Normal", "Moderate bruising", "Severe bruising"]},
+   { "class":"multiple-choice", "text": "Pressure/decubitus ulcers", "options":["Normal intact skin", "Stage I or II", "Stage III or IV"]},
+   { "class":"multiple-choice", "text": "Wounds", "options":["None", "Clean or closed", "Contaiminated/infected or open"]}
+   ]
+  },
+  { "id": "screenLE", "class": "screen", "title": "LE", "content":
+  [
+   { "class":"label", "text": "Lower Extremities"},
+   { "class":"multiple-choice", "text": "Patella", "options":["Normal muscle protrusion, knee bone not prominent", "Knee bone visible", "Knee bone prominent and/or square, qua muscle curves inward at knee joint"]},
+   { "class":"multiple-choice", "text": "Gastronemius", "options":["Well developed bulb of muscle with firm texture", "Mildly developed muscle with somewhat spongy quality", "Undeveloped muscle and spongy texture quality"]},
+   { "class":"multiple-choice", "text": "Ankle and foot - pitting observation", "options": ["No depression or pitting", "Moderate indentation < 30 seconds or < 6 mm deep", "Deep indentation > 30 seconds or > 6 mm deep"]},
+   { "class":"image-slider", "text":"", "images":["http://i.imgur.com/69CGvp0.png"]}
+   ]
+  },
+  { "id": "screenE", "class": "screen", "title": "E", "content":
+  [
+   { "class":"label", "text": "Endocrine"},
+   { "class":"multiple-choice", "text": "Appetite", "options":["No decrease", "Moderate decrease (< 75% for > 7 days)", "Severe decrease (< 50% for > 5 days)"]},
+   { "class":"multiple-choice", "text": "Weight loss", "options":["None", "Unintended weight loss < 10 pounds or < 5% in 1 month or < 7.5% in 3 months", "Unintended weight loss > 10 pounds or < 5% in 1 month or < 7.5% in 3 months"]},
+   { "class":"multiple-choice", "text": "Weight gain", "options":["None", "Unintended gain > 10 pounds", "Unintended gain > 10 pounds in past 3 months"]}
+   ]
+  },
+  { "id": "screenAQ", "class": "screen", "title": "AQ", "content":
+  [
+   { "class":"label", "text": "Assessment Quiz"},
+   { "class":"multiple-choice", "text": "Age", "options":["< 65", "> 65"]},
+   { "class": "textfield", "text": "Height (inches)" },
+   { "class": "textfield", "text": "Weight (lbs)" },
+   { "class":"multiple-choice", "text": "Fatigue", "options":["No", "Yes"]},
+   { "class":"multiple-choice", "text": "Weakness", "options":["No", "Yes"]},
+   { "class":"multiple-choice", "text": "Fever", "options":["No", "Yes"]},
+   { "class":"multiple-choice", "text": "Inflammation", "options":["No", "Yes"]},
+   { "class":"multiple-choice", "text": "Mobility", "options":["Ambulates", "Bed or chair bound"]},
+   { "class":"multiple-choice", "text": "Nutrition supplement use", "options":["No", "Yes"]},
+   { "class":"multiple-choice", "text": "Comorbidities", "options":["Fractures", "Pneumonia", "CA", "CHF", "COPD", "Stroke", "HIV Positive", "Kidney failure", "Liver failure", "Burn", "Trauma", "Abdominal Surgery", "Dementia"]}
+   ]
+  }
+  ]
